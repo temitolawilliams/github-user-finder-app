@@ -79,7 +79,7 @@ const User = ({ match }) => {
         <div className='badge badge-success'>Public Repos:{public_repos}</div>
         <div className='badge badge-danger'>Public Gists:{public_gists}</div>
       </div>
-      <Repos repos={repos} />
+      <Repos repos={repos} style={{ color: 'blue' }} />
     </Fragment>
   );
 };
